@@ -5,3 +5,8 @@ Useful cron jobs:
 
 Logs are saved here:
 sudo vim /var/log/syslog
+
+Errors and responses are saved here:
+sudo tail /var/mail/root
+
+When executing a specific file, do not forget to chmod+x it
