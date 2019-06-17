@@ -6,7 +6,8 @@ Useful cron jobs:
 Logs are saved here:
 sudo vim /var/log/syslog
 
-Errors and responses are saved here:
+Errors and responses are saved here after installing postfix:
 sudo tail /var/mail/root
+# follow this URL: https://computingforgeeks.com/how-to-install-and-configure-postfix-as-a-send-only-smtp-server-on-ubuntu-18-04-lts/
 
 When executing a specific file, do not forget to chmod+x it
